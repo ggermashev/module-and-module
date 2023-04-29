@@ -1,0 +1,94 @@
+
+.dressing-room {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.person-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.choice {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.person {
+    position: relative;
+    width: 100%;
+}
+
+.top, .upper, .mid, .lower, .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.head {
+    width: 50%;
+    position: relative;
+    max-width: 150px;
+}
+
+.left-hand, .right-hand {
+    width: 100%;
+    max-width: 150px;
+}
+
+.body {
+    width: 100%;
+    max-width: 150px;
+}
+
+.shorts {
+    width: 50%;
+    max-width: 150px;
+}
+
+.left-leg, .right-leg {
+    width: 50%;
+    max-width: 150px;
+}
+
+
+.left-foot, .right-foot {
+    width: 50%;
+    position: relative;
+    max-width: 150px;
+}
+
+.choice-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.head, .left-hand, .left-leg, .left-foot, .shorts, .right-leg, .right-hand, .right-foot, .body {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.choice {
+    position: relative;
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.person-container{
+    width: 100%;
+}
+

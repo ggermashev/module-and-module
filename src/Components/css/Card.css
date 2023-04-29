@@ -1,0 +1,44 @@
+
+.card {
+    width: 300px!important;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 50px;
+    border: 5px solid black;
+    border-radius: 35px;
+}
+
+.card:hover {
+    border-color: orangered;
+    cursor: pointer;
+}
+
+.card-img {
+    border-radius: 30px;
+    height: 250px;
+}
+
+.dressing-room-img {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    top: 5px;
+    right: 55px;
+}
+
+.basket-img {
+    position: absolute;
+    width: 40px;
+    height: 35px;
+    top: 5px;
+    right: 10px;
+}
+
+.price {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: orangered;
+}

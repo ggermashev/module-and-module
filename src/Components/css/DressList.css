@@ -1,0 +1,11 @@
+.dress-row {
+    background-image: url("../images/background_test.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.dress-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

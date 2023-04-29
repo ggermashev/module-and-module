@@ -1,0 +1,27 @@
+.slide-img1 {
+    left: 100px;
+    top: 100px;
+    rotate: 0!important;
+}
+
+.slide-img2 {
+    right: 100px;
+    top: 100px;
+    rotate: 0!important;
+}
+
+.slide-img3 {
+    left: 100px;
+    bottom: 100px;
+    rotate: 0!important;
+}
+
+.slide-img4 {
+    right: 100px;
+    bottom: 100px;
+    rotate: 0!important;
+}
+
+.slide1 {
+    background-color: white;
+}

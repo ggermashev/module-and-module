@@ -1,0 +1,25 @@
+.basket {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+.basket-choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket-choice * {
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.buy-btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,40 @@
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 200px;
+    position: relative;
+}
+
+.ranges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.ranges * {
+    margin-bottom: 10px;
+}
+
+.modules {
+    width: 120px;
+}
+
+.modules .dropdown-toggle {
+    width: 100%;
+}
+
+.shop-logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    rotate: -20deg;
+}
+
+
+

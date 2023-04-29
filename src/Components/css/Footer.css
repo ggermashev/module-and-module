@@ -1,0 +1,125 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 100%;
+}
+
+.footer .logo-container-1 {
+    background-color: black;
+    width: 90px;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+}
+
+.footer .logo-container-2 {
+    background-color: black;
+    width: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+}
+
+.footer img {
+    position: relative;
+    z-index: 1;
+}
+
+.footer .logo-empty {
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+}
+
+.footer .square {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .white-row {
+    position: absolute;
+    top: 110px;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    z-index: 0;
+}
+
+.footer .top-content {
+    color: orangered;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .top-content h2 {
+    position: relative;
+    left: 30px;
+    border-bottom: 15px solid white;
+}
+
+
+.footer .bot-content {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .bot-content h4:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.footer .bot-content h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer .links-container-1 {
+    width: 100%;
+    flex-direction: row;
+}
+
+.footer .bot-content span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30px;
+}
+
+@media (max-width: 625px) {
+    .footer .bot-content span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -15px;
+    }
+
+    .footer h4 {
+
+    }
+}

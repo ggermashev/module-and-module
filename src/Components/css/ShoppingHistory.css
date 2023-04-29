@@ -1,0 +1,20 @@
+.accordion {
+    width: 100%;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    border: 1px solid orangered;
+    color: black;
+}
+
+.accordion-button:focus {
+    border-color: orangered;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon);
+}
